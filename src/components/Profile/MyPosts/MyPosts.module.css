@@ -1,0 +1,11 @@
+.postsBlock {
+  /* grid-area: myPosts; */
+  width: 700px;
+  /* display: flex;
+  flex-direction: column; */
+  float: left;
+  overflow: hidden;
+  border: 1px solid black;
+  margin: 4px 0 20px 25px;
+}
+

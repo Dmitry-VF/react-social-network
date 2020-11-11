@@ -1,0 +1,15 @@
+.item {
+  color: green;
+  padding-top: 15px;
+  
+}
+
+.item img {
+  width: 25px;
+  border-radius: 30px;
+}
+
+.item span {
+  padding-left: 5px;
+}
+

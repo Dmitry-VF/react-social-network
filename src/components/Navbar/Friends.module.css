@@ -1,0 +1,23 @@
+.friendsBar {
+    display: grid;
+    grid-area: friends;
+    background-color: white;    
+    border-radius: 4px;
+    border: 1px solid #d7dae0;
+    
+    
+}
+
+.friendsBar img {
+    width: 25px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.friend { 
+
+}
+
+.friendName { 
+
+}

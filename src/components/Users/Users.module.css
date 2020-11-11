@@ -1,0 +1,15 @@
+.userPhoto {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+
+
+.wrapper {
+
+    margin: 5px 0 0 5px;
+}
