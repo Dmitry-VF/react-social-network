@@ -2,9 +2,21 @@
     grid-area: header;
     background-color: #50c878;
     border-radius: 4px;
-  }
-  
-  .header img {
+}
+
+.header img {
     width: 60px;
     padding-left: 30px;
-  }
+}
+
+.loginBlock {
+    float: right;
+    height: 10px;
+    padding: 20px 20px 0 0;
+    color: white;
+}
+
+.loginBlock a {
+    color: white;
+
+}

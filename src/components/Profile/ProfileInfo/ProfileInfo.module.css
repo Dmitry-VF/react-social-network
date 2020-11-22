@@ -1,27 +1,27 @@
 .avatar {
     grid-area: avatar;
-    height: 150px;
-    width: 150px;
+   /* height: 250px;
+    width: 250px;
     display: flex;
     float: left;
     overflow: hidden;
     border: 1px solid #d7dae0;
     border-radius: 4px;
-    margin-left: 25px;
+    margin-left: 25px;*/
   }
   
-.avatar img {
+/*.avatar img {
     margin: auto;
     width: 100%;
-    transform: scale(2,2);
+    transform: scale(1,1);
     transition: none;
   }
-  
+  */
   .about {
     grid-area: about;
-    margin-left: 4px;
+    margin-left: 15px;
     grid-area: about;
-    height: 150px;
+    height: 250px;
     width: 350px;
     display: flex;
     float: left;
