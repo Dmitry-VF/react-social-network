@@ -10,7 +10,7 @@ const Profile = (props) => {
   return (
     <div className={s.content}>
       {/*<ProfileCover />*/}
-      <ProfileInfo profile={props.profile} status={props.status} updateStatus={props.updateStatus}/>
+      <ProfileInfo profile={props.profile} status={props.status} updateStatus={props.updateStatus} />
       <MyPostsContainer  />
     </div>
   );

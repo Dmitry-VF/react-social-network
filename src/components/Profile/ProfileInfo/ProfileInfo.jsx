@@ -4,27 +4,19 @@ import Preloader from "../../common/Preloader/Preloader";
 import {NavLink} from "react-router-dom";
 import nopic from "../../../assets/images/defaultUserpic.jpg";
 import ProfileStatus from './ProfileStatus'
+import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 
 const ProfileInfo = (props) => {
     if (props.profile === null || props.profile === undefined) {
         return <Preloader/>
     }
-/*
-    let userpic = {
-        if ( photos.large === null || props.profile.photos.large === undefined) {
-            return {nopic}
-    }
-        else (return rops.profile.photos.large)
-    }*/
-
 
     return (
-
         <div>
 
             <div className={s.avatar}>
                 <img src={props.profile.photos.large} alt='avatar'/>
-                <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
+                <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus} />
             </div>
 
             <div className={s.about}>

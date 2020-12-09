@@ -3,18 +3,7 @@
     border-radius: 30px;
 }
 
-.selectedPage {
-    font-weight: bold;
-}
 
-.currentPage {
-    padding: 10px
-}
-
-.usersPages span {
-    cursor: pointer;
-    padding: 5px;
-}
 
 .wrapper {
 
