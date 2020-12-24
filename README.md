@@ -12,6 +12,7 @@ Special thanks to [Dimych](https://github.com/dimych)
 * Status update
 * Profile info update
 * Userpic update
+
 Post only working with local store. Api does not have this function yet.
 
 ## Login page:
