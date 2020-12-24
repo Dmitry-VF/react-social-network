@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Social network based on react
 
 Based on [samuraijs](https://social-network.samuraijs.com/docs) API 
+Special thanks to [Dimych](https://github.com/dimych)
 
 # Avalible features:
 
