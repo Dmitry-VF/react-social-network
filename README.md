@@ -1,5 +1,6 @@
 
-# Social network based on [React JS] (https://github.com/facebook/create-react-app)
+# Social network based on 
+[React JS] (https://github.com/facebook/create-react-app)
 
 Based on [samuraijs](https://social-network.samuraijs.com/docs) API 
 
