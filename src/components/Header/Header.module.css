@@ -11,12 +11,18 @@
 
 .loginBlock {
     float: right;
-    height: 10px;
-    padding: 20px 20px 0 0;
+    padding: 17px 15px 0 0;
     color: white;
 }
 
 .loginBlock a {
     color: white;
 
+}
+button {
+    font-size: 13px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
 }

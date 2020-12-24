@@ -4,8 +4,56 @@
 }
 
 
-
 .wrapper {
-
     margin: 5px 0 0 5px;
+}
+
+.userWrapper {
+    margin-left: 10px;
+
+}
+
+.userPic {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.name__status__wrapper {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.name__status__wrapper span {
+    display: block;
+    margin: 10px
+}
+
+.subscribeBtn button{
+    display: block;
+    width: 80px;
+    background: none;
+    border: none;
+    font-weight: bold;
+
+}
+
+.subscribeBtn {
+    display: block;
+    text-align: center;
+    border: 2px solid #50c878;
+    border-radius: 4px;
+    width: 80px;
+    margin-bottom: 25px;
+}
+
+.subscribeBtn:hover {
+    display: block;
+    background-color: #50c878;
+    color: white;
+    cursor: pointer;
+}
+
+.subscribeBtn button:hover {
+    color: white;
+    cursor: pointer;
 }

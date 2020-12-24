@@ -1,11 +1,53 @@
 .postsBlock {
   /* grid-area: myPosts; */
-  width: 700px;
   /* display: flex;
   flex-direction: column; */
   float: left;
-  overflow: hidden;
-  border: 1px solid black;
-  margin: 4px 0 20px 25px;
+  margin: 10px;
+  width: 430px;
+}
+
+.postsBlock b {
+  border-bottom: 2px solid #50c878;
+  padding-bottom: 4px;
+}
+
+.addPostForm {
+  margin-top: 15px;
+
+}
+
+.addPostForm textarea {
+  resize: none;
+  outline: none;
+  width: 420px;
+  height: 70px;
+  overflow: auto;
+  margin-left: 5px;
+  background: #f0f8ff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+
+}
+
+.addPostForm button {
+  display: inline-block;
+  float: right;
+  outline: none;
+  text-align: center;
+  border: 2px solid #50c878;
+  border-radius: 4px;
+  width: 100px;
+
+}
+
+.addPostForm button:hover {
+  background: #50c878;
+  color: white;
+}
+
+.postsElements {
+  display: inline-block;
+  margin-left: 5px;
 }
 

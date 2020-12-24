@@ -1,7 +1,34 @@
+.postWrapper {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  width: 400px;
+  overflow: hidden;
+  word-wrap: normal;
+  border-radius: 4px;
+  background: linear-gradient(142deg, rgba(210, 210, 210, 0.09287464985994398) 0%, rgba(191, 250, 236, 0.20211834733893552) 33%, rgba(26, 255, 204, 0.2777485994397759) 100%);
+}
+
+.postWrapper:nth-child(2n) {
+  background: rgb(210,210,210);
+  background: linear-gradient(142deg, rgba(210,210,210,0.09287464985994398) 0%, rgba(191,250,236,0.20211834733893552) 33%, rgba(26,231,255,0.2777485994397759) 100%);
+}
+
 .item {
-  color: green;
+
   padding-top: 15px;
-  
+  position: relative;
+}
+
+.postMessage {
+  position: absolute;
+  top: 20px;
+  margin-left: 5px;
+
+}
+
+.likesCount {
+  font-size: 12px;
+  float: right;
 }
 
 .item img {

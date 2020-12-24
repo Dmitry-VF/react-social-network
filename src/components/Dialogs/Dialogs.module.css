@@ -8,6 +8,7 @@
 
 }
 
+
 .dialogsItems .active {
     color: #50c878;
 }
@@ -23,9 +24,58 @@
 
 .messages {
     color: darkslategray;
+    margin-top: 20px;
+
 }
 
 .message {
-    padding: 20px 0 0 15px;
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #50c878;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: rgb(210,210,210);
+    background: linear-gradient(142deg, rgba(210,210,210,0.09287464985994398) 0%, rgba(191,250,236,0.20211834733893552) 33%, rgba(26,231,255,0.2777485994397759) 100%);
+    padding: 20px;
+}
+
+.message:nth-child(2n) {
+    background: linear-gradient(142deg, rgba(210, 210, 210, 0.09287464985994398) 0%, rgba(191, 250, 236, 0.20211834733893552) 33%, rgba(26, 255, 204, 0.2777485994397759) 100%);
 
 }
+
+.messageForm {
+    width: 440px;
+    margin-bottom: 50px;
+}
+
+.messageForm textarea {
+    resize: none;
+    outline: none;
+    width: 440px;
+    height: 70px;
+    overflow: auto;
+
+    background: #f0f8ff;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+}
+
+.messageForm button {
+    display: inline-block;
+    float: right;
+    outline: none;
+    text-align: center;
+    border: 2px solid #50c878;
+    border-radius: 4px;
+    width: 100px;
+
+}
+
+.messageForm button:hover {
+    background: #50c878;
+    color: white;
+    cursor: pointer;
+}
+

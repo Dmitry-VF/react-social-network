@@ -1,0 +1,73 @@
+.loginWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+
+.login__title {
+    float: left;
+    border-bottom: 4px solid #50c878;
+    padding-bottom: 4px;
+}
+
+.form__input {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #50c878;
+
+
+}
+
+.form__input input {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.form__button button {
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid #50c878;
+    padding: 5px;
+    border-radius: 4px
+}
+
+.form__button button:hover {
+    background-color: #50c878;
+    color: white;
+}
+
+.checkbox {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 0;
+    -webkit-text-fill-color: black;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,174,255,0.04) 50%,rgba(255,255,255,0) 51%,rgba(0,174,255,0.03) 100%);
+}
+

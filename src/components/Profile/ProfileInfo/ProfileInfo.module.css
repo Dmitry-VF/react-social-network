@@ -1,34 +1,152 @@
+.profileInfo {
+    margin-bottom: 35px;
+}
+
+.wrapper__avatar {
+    width: 320px;
+    float: left;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 .avatar {
-    grid-area: avatar;
-   /* height: 250px;
-    width: 250px;
-    display: flex;
-    float: left;
-    overflow: hidden;
-    border: 1px solid #d7dae0;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.avatar img {
     border-radius: 4px;
-    margin-left: 25px;*/
-  }
-  
-/*.avatar img {
-    margin: auto;
     width: 100%;
-    transform: scale(1,1);
-    transition: none;
-  }
-  */
-  .about {
-    grid-area: about;
-    margin-left: 15px;
-    grid-area: about;
-    height: 250px;
+    height: 100%;
+}
+
+.avatar input {
+    display: none;
+}
+
+.fileUpload {
+    display: block;
+    position: relative;
+    bottom: 55px;
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.fileUpload:hover {
+    background: #50c878;
+}
+
+.fileUpload b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.wrapper__status_about {
+    padding: 10px;
+}
+
+.status {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.status b {
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+.statusText:hover {
+    cursor: pointer;
+    color: #50c878;
+}
+
+.editMode__input {
     width: 350px;
-    display: flex;
-    float: left;
     overflow: hidden;
-    border: 1px solid black;
-  }
-  
-  .about div {
-    padding-top: 8px;
-  }
+    border-bottom: 2px solid #50c878;
+}
+
+.editMode__input input {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    width: 350px;
+}
+
+.about {
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+.about b {
+    display: inline-block;
+    padding-bottom: 6px;
+    width: 180px;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+button {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.about__button button {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #50c878;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.about__button button:hover {
+    background: #50c878;
+    color: white;
+}
+
+.about__button {
+    margin-top: 15px;
+}
+
+.contactsHeader {
+    color: #50c878;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contactTitileWrapper {
+    margin-top: 6px;
+}
+
+.contactTitle {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    width: 180px;
+}
+
+.contacts {
+    display: inline-block;
+    width: 600px;
+}
+
+
+
+
+

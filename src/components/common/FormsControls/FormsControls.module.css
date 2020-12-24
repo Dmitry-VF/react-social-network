@@ -1,18 +1,46 @@
-.formControl {
-
+.formControl input {
+    border: none;
+    outline: none;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #50c878;
 }
 
 .formControl.error input,
 .formControl.error textarea {
-    border: 1px solid red;
+
+
 }
 .formControl.error span {
     color: red;
+    font-size: 11px;
+    padding-left: 10px;
 }
 
 .formSummaryError {
     width: 170px;
     border: red 1px solid;
     padding: 5px;
-    color: red
+    color: red;
+
 }
+
+.profileDataForm {
+    display: flex;
+    width: 180px;
+}
+
+.profileDataForm button {
+    display: inline-block;
+    float: left;
+    outline: none;
+    text-align: center;
+    border: 2px solid #50c878;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.addPostForm button:hover {
+    background: #50c878;
+    color: white;
+}
+

@@ -7,7 +7,7 @@ import {Textarea} from "../../common/FormsControls/FormsControls";
 
 const MyPosts = props => {
     let PostsElements =
-        props.posts.map(post => <Post message={post.message} likesCount={post.likesCount}/>);
+        props.posts.map(post => <Post key={post.id} message={post.message} likesCount={post.likesCount}/>);
 
     let onAddNewPost = (values) => {
         props.addPost(values.newPostTextBody)
@@ -15,9 +15,12 @@ const MyPosts = props => {
 
     return (
         <div className={s.postsBlock}>
-            My posts
-            <AddPostReduxForm onSubmit={onAddNewPost}/>
+            <b>My posts</b>
+            {props.isOwner &&
+            <AddPostReduxForm onSubmit={onAddNewPost}/>}
+            <div className={s.postsElements}>
             {PostsElements}
+            </div>
         </div>
     );
 }
@@ -28,15 +31,17 @@ const maxLength300 = maxLengthCreator(300)
 
 const AddPostForm = (props) => {
     return (
-        <form onSubmit={props.handleSubmit}>
-            <div>
-                <Field component={Textarea}  name='newPostTextBody' placeholder='Enter your text'
-                       validate={[required, maxLength300]}/>
-            </div>
-            <div>
-                <button>Add a post</button>
-            </div>
-        </form>
+        <div className={s.addPostForm}>
+            <form onSubmit={props.handleSubmit}>
+                <div>
+                    <Field component={Textarea} name='newPostTextBody' placeholder='Enter your text'
+                           validate={[required, maxLength300]}/>
+                </div>
+                <div>
+                    <button>Add a post</button>
+                </div>
+            </form>
+        </div>
     )
 }
 

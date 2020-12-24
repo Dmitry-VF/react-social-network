@@ -14,7 +14,6 @@ import {
     getIsFetching,
     getPageSize,
     getTotalUsersCount, getUsersData,
-    getUsersDataSuperSelector
 } from "../../redux/users-selectors";
 
 class UsersContainer extends React.Component {
