@@ -3,9 +3,8 @@
 
 Based on [samuraijs](https://social-network.samuraijs.com/docs) API 
 
-Special thanks to [Dimych](https://github.com/dimych)
 
-**You can check this out on** [Github pages link](https://dmitry-vf.github.io/react-social-network) .
+**You can check this out on** [Github pages link](https://dmitry-vf.github.io/react-social-network) 
 
 **Email:** *free@samuraijs.com*
 
