@@ -45,7 +45,7 @@ In the project directory, you can run:
 ### `npm run deploy` 
 *to deploy it you need to edit into package.json "homepage" parameter*
 
-* Also don't forget to generate API key on [samuraijs](https://social-network.samuraijs.com/account) and put it into api.js*
+*Also don't forget to generate API key on [samuraijs](https://social-network.samuraijs.com/account) and put it into api.js*
 
 
 
