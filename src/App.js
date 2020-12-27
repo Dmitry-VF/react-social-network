@@ -1,5 +1,5 @@
 import React, {Suspense} from 'react';
-import {BrowserRouter, Route, withRouter, Switch, Link, Redirect} from "react-router-dom";
+import {HashRouter, Route, withRouter, Redirect} from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import UsersContainer from "./components/Users/UsersContainer";
@@ -13,8 +13,6 @@ import store from "./redux/redux-store";
 
 const DialogsContainer = React.lazy(() => import('./components/Dialogs/DialogsContainer'));
 const ProfileContainer = React.lazy(() => import('./components/Profile/ProfileContainer'));
-
-// import { addPost } from './redux/state';
 
 class App extends React.Component {
 
@@ -64,11 +62,13 @@ let AppContainer = compose(
 
 const SocialApp = (props) => {
     return (
-        <Provider store={store}>
-            <BrowserRouter>
+
+        <HashRouter >
+            <Provider store={store}>
                 <AppContainer/>
-            </BrowserRouter>
-        </Provider>
+            </Provider>
+        </HashRouter>
+
     )
 }
 

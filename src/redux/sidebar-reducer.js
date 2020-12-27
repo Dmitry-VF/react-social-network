@@ -1,4 +1,3 @@
-import dialogsReducer from "./dialogs-reducer";
 
 let initialState = {
     friendsData: [

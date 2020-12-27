@@ -42,7 +42,7 @@ const ProfileInfo = ({profile, profileStatus, updateStatus, isOwner, savePhoto, 
 
             <div className={s.wrapper__status_about}>
                 <div className={s.status}><b>Status {isOwner && '(Double-click to change)'}</b>:
-                    <ProfileStatusWithHooks status={profileStatus} updateStatus={updateStatus}/>
+                    <ProfileStatusWithHooks status={profileStatus} updateStatus={updateStatus} isOwner={isOwner}/>
                 </div>
                 {editMode
                     ? <ProfileDataForm initialValues={profile} profile={profile} onSubmit={onSubmit}/>
@@ -83,7 +83,7 @@ const ProfileData = ({profile, isOwner, toEditMode}) => {
 
 const Contact = ({contactTitle, contactValue}) => {
     return (
-        <div className={s.contactTitileWrapper}>
+        <div className={s.contactTitleWrapper}>
             <span className={s.contactTitle}>{contactTitle}:</span> <a href={contactValue}  target="_blank">{contactValue}</a>
         </div>
     )

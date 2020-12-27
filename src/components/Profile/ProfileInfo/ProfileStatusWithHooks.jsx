@@ -1,4 +1,4 @@
-import React, {createRef, useEffect, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import s from './ProfileInfo.module.css';
 
 const ProfileStatusWithHooks = (props) => {
@@ -30,7 +30,7 @@ const ProfileStatusWithHooks = (props) => {
                 <span onDoubleClick={activateEditMode}>{props.status || 'No status'}</span>
             </div>
             }
-            {editMode &&
+            {props.isOwner && editMode &&
             <div className={s.editMode__input}>
                 enter your status below and click nearby to save
                     <input onChange={onStatusChange} value={status} autoFocus={true} onBlur={deactivateEditMode}/>
