@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-social-network/static/css/main.ae8b459c.chunk.css",
+    "main.css": "/react-social-network/static/css/main.ed197416.chunk.css",
     "main.js": "/react-social-network/static/js/main.c97ff4f3.chunk.js",
     "main.js.map": "/react-social-network/static/js/main.c97ff4f3.chunk.js.map",
     "runtime-main.js": "/react-social-network/static/js/runtime-main.d2d9ed57.js",
@@ -18,7 +18,7 @@
     "static/css/2.d9fbb11f.chunk.css.map": "/react-social-network/static/css/2.d9fbb11f.chunk.css.map",
     "static/css/3.d7cd70c6.chunk.css.map": "/react-social-network/static/css/3.d7cd70c6.chunk.css.map",
     "static/css/4.18bc5d93.chunk.css.map": "/react-social-network/static/css/4.18bc5d93.chunk.css.map",
-    "static/css/main.ae8b459c.chunk.css.map": "/react-social-network/static/css/main.ae8b459c.chunk.css.map",
+    "static/css/main.ed197416.chunk.css.map": "/react-social-network/static/css/main.ed197416.chunk.css.map",
     "static/js/2.915c65f2.chunk.js.LICENSE.txt": "/react-social-network/static/js/2.915c65f2.chunk.js.LICENSE.txt",
     "static/media/default-user.jpg": "/react-social-network/static/media/default-user.e2be6e8b.jpg",
     "static/media/preloader.c1312e7c.gif": "/react-social-network/static/media/preloader.c1312e7c.gif",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.d2d9ed57.js",
     "static/css/2.d9fbb11f.chunk.css",
     "static/js/2.915c65f2.chunk.js",
-    "static/css/main.ae8b459c.chunk.css",
+    "static/css/main.ed197416.chunk.css",
     "static/js/main.c97ff4f3.chunk.js"
   ]
 }
