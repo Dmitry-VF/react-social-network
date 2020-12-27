@@ -18,7 +18,7 @@ Based on [samuraijs](https://social-network.samuraijs.com/docs) API
 * Profile info update
 * Userpic update
 
-Post only working with local store. Api does not have this function yet.
+Post only working with local store. API does not have this function yet.
 
 ## Login page:
 * Captcha: if you enter incorrect data many times, captcha will appear
@@ -29,7 +29,7 @@ Post only working with local store. Api does not have this function yet.
 * Users pagination
  
 ## Messages:
-* I made a dummy with local state, api does not have a message function  yet.
+* I made a dummy with local state, API does not have a message function  yet.
 
 
 ## Available Scripts
@@ -41,6 +41,13 @@ In the project directory, you can run:
 ### `npm run build`
 ### `npm run eject`
 ### `npm run build` 
+
+### `npm run deploy` 
+*to deploy it you need to edit into package.json "homepage" parameter*
+
+* Also don't forget to generate API key on [samuraijs](https://social-network.samuraijs.com/account) and put it into api.js*
+
+
 
 ## Some screenshots:
 
