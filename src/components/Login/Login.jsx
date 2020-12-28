@@ -23,11 +23,11 @@ const LoginForm = ({ handleSubmit, error, captchaUrl }) => {
                 <Field type={'checkbox'} name={'rememberMe'} component={Input}/> remember me
             </div>
             { error &&
-            <div className={styles.formSummaryError}>
+            <span className={styles.formSummaryError}>
                 {error}
-            </div>
+            </span>
             }
-            { captchaUrl && <img src={captchaUrl} alt='captcha' /> }
+            { captchaUrl && <div><img src={captchaUrl} alt='captcha' /></div> }
             { captchaUrl &&
             createField('Symbols from image', 'captcha', [required], Input, {}, '') }
             <div className={loginStyles.form__button}>
@@ -35,7 +35,7 @@ const LoginForm = ({ handleSubmit, error, captchaUrl }) => {
             </div>
         </form>
     )
-}
+};
 
 const LoginReduxForm = reduxForm({form: 'login'})(LoginForm)
 

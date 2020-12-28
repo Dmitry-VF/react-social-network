@@ -1,3 +1,4 @@
+
 const SEND_MESSAGE = 'SEND-MESSAGE';
 
 let initialState = {
@@ -13,7 +14,8 @@ let initialState = {
         { message: 'Ctulhu fhtagn', id: 3 },
         { message: 'Pshh pshh nichego ne slishno', id: 4 },
 
-    ]
+    ],
+    newMessageText: '',
 };
 
 const dialogsReducer = (state=initialState, action) => {
@@ -22,7 +24,8 @@ const dialogsReducer = (state=initialState, action) => {
             let newMessage = action.newMessageTextBody;
             return {
                 ...state,
-                messagesData: [...state.messagesData, {id: 5, message: newMessage }]
+                messagesData: [...state.messagesData, {id: 5, message: newMessage }],
+
             };
         default:
             return state;
