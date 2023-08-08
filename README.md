@@ -53,8 +53,6 @@ In the project directory, you can run:
 
 ![Login page](https://i.ibb.co/BwtB3ms/login.png)
 
-![Profile page](https://i.ibb.co/vkqCH7y/profile.png)
-
 ![Users page](https://i.ibb.co/WxMVVcb/users.png)
 
 
